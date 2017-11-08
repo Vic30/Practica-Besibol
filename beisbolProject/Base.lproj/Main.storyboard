@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yRu-l7-TPl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yRu-l7-TPl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -88,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="1564" y="-304.4977511244378"/>
         </scene>
-        <!--Partidos-->
+        <!--Games-->
         <scene sceneID="oUy-uN-hmM">
             <objects>
-                <navigationController id="sHR-La-EQD" sceneMemberID="viewController">
+                <navigationController id="sHR-La-EQD" userLabel="Games" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Partidos" id="58U-j3-55t"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="vld-7G-cZk">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -115,15 +116,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="sqE-5q-6ct">
-                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
+                                <rect key="frame" x="38" y="302" width="299" height="64.5"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdL-5W-5p1">
-                                <rect key="frame" x="80" y="363" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -131,9 +126,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="sqE-5q-6ct" secondAttribute="centerY" id="EaW-P3-nw7"/>
-                            <constraint firstItem="bdL-5W-5p1" firstAttribute="top" secondItem="sqE-5q-6ct" secondAttribute="bottom" constant="8" symbolic="YES" id="Jcd-nl-ve2"/>
                             <constraint firstAttribute="centerX" secondItem="sqE-5q-6ct" secondAttribute="centerX" id="VWl-62-wOQ"/>
-                            <constraint firstItem="bdL-5W-5p1" firstAttribute="centerX" secondItem="sqE-5q-6ct" secondAttribute="centerX" id="k5i-O0-FhP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7S4-CM-tp7"/>
                     </view>
@@ -141,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckz-8I-m5D" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="757" y="463"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ylo-yG-LFb">

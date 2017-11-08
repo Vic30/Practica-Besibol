@@ -2,7 +2,7 @@
 //  GamesViewController.m
 //  beisbol
 //
-//  Created by Amalia Gastelum on 11/5/17.
+//  Created by lrvictor on 11/8/17.
 //  Copyright © 2017 UAG. All rights reserved.
 //
 
@@ -50,7 +50,7 @@
     if (indexPath.row%2 == 0) {
         cell.contentView.backgroundColor = [UIColor whiteColor];
     } else {
-        cell.contentView.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.5];
+        cell.contentView.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.5];
     }
     return cell;
 }

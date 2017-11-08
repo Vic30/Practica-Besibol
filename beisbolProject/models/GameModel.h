@@ -2,7 +2,7 @@
 //  GameModel.h
 //  beisbol
 //
-//  Created by Amalia Gastelum on 11/5/17.
+//  Created by lrvictor on 11/8/17.
 //  Copyright © 2017 UAG. All rights reserved.
 //
 

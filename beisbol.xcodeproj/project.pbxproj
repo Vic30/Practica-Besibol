@@ -18,8 +18,6 @@
 		A1C8D68C1FAF9BA800A2E21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C8D68B1FAF9BA800A2E21F /* Assets.xcassets */; };
 		A1C8D68F1FAF9BA800A2E21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8D68D1FAF9BA800A2E21F /* LaunchScreen.storyboard */; };
 		A1C8D6921FAF9BA800A2E21F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8D6911FAF9BA800A2E21F /* main.m */; };
-		A1C8D69C1FAF9BA800A2E21F /* beisbolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8D69B1FAF9BA800A2E21F /* beisbolTests.m */; };
-		A1C8D6A71FAF9BA800A2E21F /* beisbolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8D6A61FAF9BA800A2E21F /* beisbolUITests.m */; };
 		A1C8D6B81FAFC9C000A2E21F /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8D6B71FAFC9C000A2E21F /* GamesViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -63,11 +61,7 @@
 		A1C8D6901FAF9BA800A2E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8D6911FAF9BA800A2E21F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1C8D6971FAF9BA800A2E21F /* beisbolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beisbolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1C8D69B1FAF9BA800A2E21F /* beisbolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beisbolTests.m; sourceTree = "<group>"; };
-		A1C8D69D1FAF9BA800A2E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8D6A21FAF9BA800A2E21F /* beisbolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beisbolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1C8D6A61FAF9BA800A2E21F /* beisbolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beisbolUITests.m; sourceTree = "<group>"; };
-		A1C8D6A81FAF9BA800A2E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8D6B61FAFC9C000A2E21F /* GamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
 		A1C8D6B71FAFC9C000A2E21F /* GamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
 		E091D0602A68D3F89D2DF9B0 /* Pods-beisbolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beisbolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-beisbolTests/Pods-beisbolTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +119,7 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A130862A1FAFFE01009D228E /* Modelos */ = {
+		A130862A1FAFFE01009D228E /* models */ = {
 			isa = PBXGroup;
 			children = (
 				A130862B1FAFFE26009D228E /* GameModel.h */,
@@ -133,7 +127,7 @@
 				A130862E1FB00541009D228E /* DateGamesModel.h */,
 				A130862F1FB00541009D228E /* DateGamesModel.m */,
 			);
-			path = Modelos;
+			path = models;
 			sourceTree = "<group>";
 		};
 		A13086311FB0098B009D228E /* Celda */ = {
@@ -148,9 +142,7 @@
 		A1C8D6731FAF9BA800A2E21F = {
 			isa = PBXGroup;
 			children = (
-				A1C8D67E1FAF9BA800A2E21F /* beisbol */,
-				A1C8D69A1FAF9BA800A2E21F /* beisbolTests */,
-				A1C8D6A51FAF9BA800A2E21F /* beisbolUITests */,
+				A1C8D67E1FAF9BA800A2E21F /* beisbolProject */,
 				A1C8D67D1FAF9BA800A2E21F /* Products */,
 				161B744286FF7DF3658ADF87 /* Pods */,
 				0CED1CF63609E6D4164B7BA6 /* Frameworks */,
@@ -167,12 +159,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1C8D67E1FAF9BA800A2E21F /* beisbol */ = {
+		A1C8D67E1FAF9BA800A2E21F /* beisbolProject */ = {
 			isa = PBXGroup;
 			children = (
 				A13086311FB0098B009D228E /* Celda */,
-				A130862A1FAFFE01009D228E /* Modelos */,
-				A1C8D6B41FAF9C0B00A2E21F /* Partidos */,
+				A130862A1FAFFE01009D228E /* models */,
+				A1C8D6B41FAF9C0B00A2E21F /* Games */,
 				A1C8D67F1FAF9BA800A2E21F /* AppDelegate.h */,
 				A1C8D6801FAF9BA800A2E21F /* AppDelegate.m */,
 				A1C8D6881FAF9BA800A2E21F /* Main.storyboard */,
@@ -181,34 +173,16 @@
 				A1C8D6901FAF9BA800A2E21F /* Info.plist */,
 				A1C8D6911FAF9BA800A2E21F /* main.m */,
 			);
-			path = beisbol;
+			path = beisbolProject;
 			sourceTree = "<group>";
 		};
-		A1C8D69A1FAF9BA800A2E21F /* beisbolTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1C8D69B1FAF9BA800A2E21F /* beisbolTests.m */,
-				A1C8D69D1FAF9BA800A2E21F /* Info.plist */,
-			);
-			path = beisbolTests;
-			sourceTree = "<group>";
-		};
-		A1C8D6A51FAF9BA800A2E21F /* beisbolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1C8D6A61FAF9BA800A2E21F /* beisbolUITests.m */,
-				A1C8D6A81FAF9BA800A2E21F /* Info.plist */,
-			);
-			path = beisbolUITests;
-			sourceTree = "<group>";
-		};
-		A1C8D6B41FAF9C0B00A2E21F /* Partidos */ = {
+		A1C8D6B41FAF9C0B00A2E21F /* Games */ = {
 			isa = PBXGroup;
 			children = (
 				A1C8D6B61FAFC9C000A2E21F /* GamesViewController.h */,
 				A1C8D6B71FAFC9C000A2E21F /* GamesViewController.m */,
 			);
-			path = Partidos;
+			path = Games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,7 +487,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C8D69C1FAF9BA800A2E21F /* beisbolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +494,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C8D6A71FAF9BA800A2E21F /* beisbolUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,11 +642,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43L9G44D97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = beisbol/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.amalia.uag.beisbol;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.uag.victor.beisbolgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -686,11 +658,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43L9G44D97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = beisbol/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.amalia.uag.beisbol;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.uag.victor.beisbolgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
